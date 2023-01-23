@@ -1,0 +1,152 @@
+<html>
+    <head>
+        <title>Case Study: Google Lens vs. MobileNet</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center>
+        <div class="heading">
+            <br>
+            <h1>Google Lens vs. MobileNet</h1>
+            <h4>Which is more accurate?</h4>
+            <br>
+        </div>
+        <hr>
+        <ol>
+            <div class = "img_and_result col-xs-12">
+                <li class = "col-sm-4 col-xs-12">
+                    <label>Our test image looks like this: </label>
+                    <img src="HTB1z1VnKb5YBuNjSspoq6zeNFXaq.jpg_.webp">
+                    <label>(This is a "Pom-Pom Pen")</label>
+                </li>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Result for Google Lens:
+                    <span> Fluffy Pen </span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Result for MobileNet:
+                    <span> Maraca </span>
+                </h5>
+
+                <div class="mini_result col-xs-12">
+                    Winner: <b>Google Lens</b>
+                </div>
+            </div>
+        </ol>
+
+        <ol>
+            <div class = "img_and_result col-xs-12">
+                <li class = "col-sm-4 col-xs-12">
+                    <label>Our test image looks like this: </label>
+                    <img src="1996200-papermate-blue-retracted-primary-closed_1024x1024.webp">
+                    <label>(This is a "Paper Mate Pencil")</label>
+                </li>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Result for Google Lens:
+                    <span> papermate clearpoint 0.7 pink </span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Result for MobileNet:
+                    <span> Ballpoint Pen </span>
+                </h5>
+
+                <div class="mini_result col-xs-12">
+                    Winner: <b>Google Lens</b>
+                </div>
+            </div>
+        </ol>
+
+        <ol>
+            <div class = "img_and_result col-xs-12">
+                <li class = "col-sm-4 col-xs-12">
+                    <label>Our test image looks like this: </label>
+                    <img src="imageService.jpg">
+                    <label>(This is a "Plastic Water Bottle: Kirkland")</label>
+                </li>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Result for Google Lens:
+                    <span> Kirkland Water Bottle </span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Result for MobileNet:
+                    <span> Water Bottle </span>
+                </h5>
+
+                <div class="mini_result col-xs-12">
+                    Winner: <b>Google Lens</b>
+                    <p>(It was basically the same except Google Lens was a bit more accurate)</p>
+                </div>
+            </div>
+        </ol>
+
+        <ol>
+            <div class = "img_and_result col-xs-12">
+                <li class = "col-sm-4 col-xs-12">
+                    <label>Our test image looks like this: </label>
+                    <img src="GUEST_5cadf5b2-7642-466a-b746-40a9859541b1.jpg">
+                    <label>(This is a "Computer Mouse")</label>
+                </li>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Result for Google Lens:
+                    <span> Antibacterial Optical Mouse Supot </span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Result for MobileNet:
+                    <span> Computer Mouse </span>
+                </h5>
+
+                <div class="mini_result col-xs-12">
+                    Winner: <b>MobileNet</b>
+                </div>
+            </div>
+        </ol>
+
+        <ol>
+            <div class = "img_and_result col-xs-12">
+                <li class = "col-sm-4 col-xs-12">
+                    <label>Our test image looks like this: </label>
+                    <img src="51Uo7kfSt0L.jpg">
+                    <label>(This is a "Amazon Basics Pencil")</label>
+                </li>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Result for Google Lens:
+                    <span> 
+                        Basics Pre-sharpened Wood Cased #2 HB Pencils </span>
+                </h5>
+
+                <h5 class="col-sm-4 col-xs-12">
+                    Result for MobileNet:
+                    <span> Syringe </span>
+                </h5>
+
+                <div class="mini_result col-xs-12">
+                    Winner: <b>Google Lens</b>
+                </div>
+            </div>
+        </ol>
+        <hr>
+        <h1 id="result">Ultimate Winner: <b>GOOGLE LENS</b></h1>
+
+        <div id="footer">
+            Developed by -- Ashmita
+        </div>
+        </center>
+    </body>
+</html>
